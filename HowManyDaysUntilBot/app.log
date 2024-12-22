@@ -1,0 +1,194 @@
+2024-12-22 13:31:29,023 INFO c.p.H.HowManyDaysUntilBotApplication [main] Starting HowManyDaysUntilBotApplication using Java 23.0.1 with PID 16328 (C:\Users\me\Desktop\codewars\HowManyDaysUntilBot\target\classes started by я in C:\Users\me\Desktop\codewars\HowManyDaysUntilBot)
+2024-12-22 13:31:29,042 DEBUG c.p.H.HowManyDaysUntilBotApplication [main] Running with Spring Boot v3.4.0, Spring v6.2.0
+2024-12-22 13:31:29,042 INFO c.p.H.HowManyDaysUntilBotApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-12-22 13:31:29,802 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-22 13:31:29,865 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 63 ms. Found 1 JPA repository interface.
+2024-12-22 13:31:30,440 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-22 13:31:30,534 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-22 13:31:30,590 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-12-22 13:31:30,990 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-22 13:31:31,032 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-12-22 13:31:31,581 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@582a3b19
+2024-12-22 13:31:31,581 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-12-22 13:31:31,687 WARN o.h.o.deprecation [main] HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-22 13:31:31,689 WARN o.h.o.deprecation [main] HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-12-22 13:31:31,747 INFO o.h.o.c.pooling [main] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-22 13:31:33,088 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-22 13:31:33,168 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-22 13:31:34,577 INFO o.s.d.j.r.q.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-12-22 13:31:35,088 INFO c.p.H.HowManyDaysUntilBotApplication [main] Started HowManyDaysUntilBotApplication in 6.538 seconds (process running for 8.456)
+2024-12-22 13:32:16,076 INFO c.p.H.s.TelegramBot [how_many_days_until_bot Telegram Executor] send photo
+2024-12-22 13:32:59,615 ERROR c.p.H.s.TelegramBot [how_many_days_until_bot Telegram Executor] TelegramBotError
+2024-12-22 13:32:59,615 INFO c.p.H.s.TelegramBot [how_many_days_until_bot Telegram Executor] send message
+2024-12-22 13:33:00,165 INFO c.p.H.s.TelegramBot [how_many_days_until_bot Telegram Executor] send message
+2024-12-22 13:33:00,470 INFO c.p.H.s.TelegramBot [how_many_days_until_bot Telegram Executor] app start
+2024-12-22 13:33:00,470 INFO c.p.H.s.TelegramBot [how_many_days_until_bot Telegram Executor] send message
+2024-12-22 13:33:00,678 INFO c.p.H.s.TelegramBot [how_many_days_until_bot Telegram Executor] app start
+2024-12-22 13:33:06,123 INFO c.p.H.s.TelegramBot [how_many_days_until_bot Telegram Executor] send photo
+2024-12-22 13:33:14,445 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-22 13:33:14,445 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-12-22 13:33:14,457 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-12-22 13:33:41,106 INFO c.p.H.HowManyDaysUntilBotApplication [main] Starting HowManyDaysUntilBotApplication using Java 23.0.1 with PID 4952 (C:\Users\me\Desktop\codewars\HowManyDaysUntilBot\target\classes started by я in C:\Users\me\Desktop\codewars\HowManyDaysUntilBot)
+2024-12-22 13:33:41,106 DEBUG c.p.H.HowManyDaysUntilBotApplication [main] Running with Spring Boot v3.4.0, Spring v6.2.0
+2024-12-22 13:33:41,111 INFO c.p.H.HowManyDaysUntilBotApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-12-22 13:33:41,876 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-22 13:33:41,946 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 57 ms. Found 1 JPA repository interface.
+2024-12-22 13:33:42,506 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-22 13:33:42,586 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-22 13:33:42,633 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-12-22 13:33:43,050 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-22 13:33:43,068 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-12-22 13:33:43,501 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@20bb85b4
+2024-12-22 13:33:43,501 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-12-22 13:33:43,584 WARN o.h.o.deprecation [main] HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-22 13:33:43,584 WARN o.h.o.deprecation [main] HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-12-22 13:33:43,622 INFO o.h.o.c.pooling [main] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-22 13:33:44,838 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-22 13:33:44,909 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-22 13:33:46,026 INFO o.s.d.j.r.q.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-12-22 13:33:46,475 INFO c.p.H.HowManyDaysUntilBotApplication [main] Started HowManyDaysUntilBotApplication in 5.879 seconds (process running for 6.93)
+2024-12-22 13:33:47,119 INFO c.p.H.s.TelegramBot [how_many_days_until_bot Telegram Executor] send message
+2024-12-22 13:33:47,379 INFO c.p.H.s.TelegramBot [how_many_days_until_bot Telegram Executor] app start
+2024-12-22 13:33:55,251 INFO c.p.H.s.TelegramBot [how_many_days_until_bot Telegram Executor] send photo
+2024-12-22 13:33:55,707 INFO c.p.H.s.TelegramBot [how_many_days_until_bot Telegram Executor] send message
+2024-12-22 13:35:07,724 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-22 13:35:07,724 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-12-22 13:35:07,724 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-12-22 13:35:14,443 INFO c.p.H.HowManyDaysUntilBotApplication [main] Starting HowManyDaysUntilBotApplication using Java 23.0.1 with PID 2100 (C:\Users\me\Desktop\codewars\HowManyDaysUntilBot\target\classes started by я in C:\Users\me\Desktop\codewars\HowManyDaysUntilBot)
+2024-12-22 13:35:14,445 DEBUG c.p.H.HowManyDaysUntilBotApplication [main] Running with Spring Boot v3.4.0, Spring v6.2.0
+2024-12-22 13:35:14,447 INFO c.p.H.HowManyDaysUntilBotApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-12-22 13:35:15,419 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-22 13:35:15,490 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 68 ms. Found 1 JPA repository interface.
+2024-12-22 13:35:16,093 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-22 13:35:16,202 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-22 13:35:16,249 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-12-22 13:35:16,737 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-22 13:35:16,761 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-12-22 13:35:17,261 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@53982523
+2024-12-22 13:35:17,261 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-12-22 13:35:17,356 WARN o.h.o.deprecation [main] HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-22 13:35:17,356 WARN o.h.o.deprecation [main] HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-12-22 13:35:17,402 INFO o.h.o.c.pooling [main] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-22 13:35:18,633 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-22 13:35:18,711 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-22 13:35:19,780 INFO o.s.d.j.r.q.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-12-22 13:35:20,165 INFO c.p.H.HowManyDaysUntilBotApplication [main] Started HowManyDaysUntilBotApplication in 6.283 seconds (process running for 7.267)
+2024-12-22 13:35:21,675 INFO c.p.H.s.TelegramBot [how_many_days_until_bot Telegram Executor] send message
+2024-12-22 13:35:21,900 INFO c.p.H.s.TelegramBot [how_many_days_until_bot Telegram Executor] app start
+2024-12-22 13:35:27,604 INFO c.p.H.s.TelegramBot [how_many_days_until_bot Telegram Executor] send photo
+2024-12-22 13:35:51,679 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-22 13:35:51,679 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-12-22 13:35:51,679 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-12-22 13:39:34,144 INFO c.p.H.HowManyDaysUntilBotApplication [main] Starting HowManyDaysUntilBotApplication using Java 23.0.1 with PID 16620 (C:\Users\me\Desktop\codewars\HowManyDaysUntilBot\target\classes started by я in C:\Users\me\Desktop\codewars\HowManyDaysUntilBot)
+2024-12-22 13:39:34,144 DEBUG c.p.H.HowManyDaysUntilBotApplication [main] Running with Spring Boot v3.4.0, Spring v6.2.0
+2024-12-22 13:39:34,144 INFO c.p.H.HowManyDaysUntilBotApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-12-22 13:39:34,828 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-22 13:39:34,902 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 57 ms. Found 1 JPA repository interface.
+2024-12-22 13:39:35,401 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-22 13:39:35,489 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-22 13:39:35,553 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-12-22 13:39:35,968 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-22 13:39:36,020 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-12-22 13:39:36,447 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@72af90e8
+2024-12-22 13:39:36,447 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-12-22 13:39:36,525 WARN o.h.o.deprecation [main] HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-22 13:39:36,525 WARN o.h.o.deprecation [main] HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-12-22 13:39:36,562 INFO o.h.o.c.pooling [main] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-22 13:39:37,831 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-22 13:39:37,900 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-22 13:39:39,032 INFO o.s.d.j.r.q.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-12-22 13:39:39,548 INFO c.p.H.HowManyDaysUntilBotApplication [main] Started HowManyDaysUntilBotApplication in 5.865 seconds (process running for 6.677)
+2024-12-22 13:39:40,162 INFO c.p.H.s.TelegramBot [how_many_days_until_bot Telegram Executor] send message
+2024-12-22 13:39:40,371 INFO c.p.H.s.TelegramBot [how_many_days_until_bot Telegram Executor] app start
+2024-12-22 13:39:42,062 INFO c.p.H.s.TelegramBot [how_many_days_until_bot Telegram Executor] send photo
+2024-12-22 13:39:42,845 INFO c.p.H.s.TelegramBot [how_many_days_until_bot Telegram Executor] send message
+2024-12-22 13:40:36,879 INFO c.p.H.s.TelegramBot [how_many_days_until_bot Telegram Executor] send message
+2024-12-22 13:40:40,666 INFO c.p.H.s.TelegramBot [how_many_days_until_bot Telegram Executor] send photo
+2024-12-22 13:40:41,120 INFO c.p.H.s.TelegramBot [how_many_days_until_bot Telegram Executor] send message
+2024-12-22 13:40:48,647 INFO c.p.H.s.TelegramBot [how_many_days_until_bot Telegram Executor] send message
+2024-12-22 13:40:52,748 INFO c.p.H.s.TelegramBot [how_many_days_until_bot Telegram Executor] send message
+2024-12-22 13:40:53,061 INFO c.p.H.s.TelegramBot [how_many_days_until_bot Telegram Executor] send message
+2024-12-22 13:41:11,382 INFO c.p.H.s.TelegramBot [how_many_days_until_bot Telegram Executor] send message
+2024-12-22 13:41:15,073 INFO c.p.H.s.TelegramBot [how_many_days_until_bot Telegram Executor] send message
+2024-12-22 13:41:15,255 INFO c.p.H.s.TelegramBot [how_many_days_until_bot Telegram Executor] send message
+2024-12-22 13:41:19,790 INFO c.p.H.s.TelegramBot [how_many_days_until_bot Telegram Executor] send photo
+2024-12-22 13:41:20,161 INFO c.p.H.s.TelegramBot [how_many_days_until_bot Telegram Executor] send message
+2024-12-22 13:41:21,358 INFO c.p.H.s.TelegramBot [how_many_days_until_bot Telegram Executor] send message
+2024-12-22 13:41:27,151 INFO c.p.H.s.TelegramBot [how_many_days_until_bot Telegram Executor] send message
+2024-12-22 13:41:27,391 INFO c.p.H.s.TelegramBot [how_many_days_until_bot Telegram Executor] send message
+2024-12-22 13:41:31,886 INFO c.p.H.s.TelegramBot [how_many_days_until_bot Telegram Executor] send photo
+2024-12-22 13:41:32,370 INFO c.p.H.s.TelegramBot [how_many_days_until_bot Telegram Executor] send message
+2024-12-22 13:42:06,875 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-22 13:42:06,875 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-12-22 13:42:06,893 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-12-22 18:29:48,105 INFO c.p.H.HowManyDaysUntilBotApplication [main] Starting HowManyDaysUntilBotApplication using Java 23.0.1 with PID 10520 (C:\Users\me\Desktop\codewars\HowManyDaysUntilBot\target\classes started by я in C:\Users\me\Desktop\codewars\HowManyDaysUntilBot)
+2024-12-22 18:29:48,109 DEBUG c.p.H.HowManyDaysUntilBotApplication [main] Running with Spring Boot v3.4.0, Spring v6.2.0
+2024-12-22 18:29:48,110 INFO c.p.H.HowManyDaysUntilBotApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-12-22 18:29:48,665 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-22 18:29:48,725 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 50 ms. Found 1 JPA repository interface.
+2024-12-22 18:29:49,145 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-22 18:29:49,241 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-22 18:29:49,290 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-12-22 18:29:49,635 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-22 18:29:49,671 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-12-22 18:29:50,270 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@23121d14
+2024-12-22 18:29:50,270 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-12-22 18:29:50,355 WARN o.h.o.deprecation [main] HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-22 18:29:50,355 WARN o.h.o.deprecation [main] HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-12-22 18:29:50,395 INFO o.h.o.c.pooling [main] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-22 18:29:51,533 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-22 18:29:51,593 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-22 18:29:52,845 INFO o.s.d.j.r.q.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-12-22 18:29:53,216 INFO c.p.H.HowManyDaysUntilBotApplication [main] Started HowManyDaysUntilBotApplication in 5.527 seconds (process running for 7.697)
+2024-12-22 18:29:53,951 INFO c.p.H.s.TelegramBot [how_many_days_until_bot Telegram Executor] send message
+2024-12-22 18:29:54,139 INFO c.p.H.s.TelegramBot [how_many_days_until_bot Telegram Executor] app start
+2024-12-22 18:29:57,238 INFO c.p.H.s.TelegramBot [how_many_days_until_bot Telegram Executor] send message
+2024-12-22 18:29:57,399 INFO c.p.H.s.TelegramBot [how_many_days_until_bot Telegram Executor] app start
+2024-12-22 18:29:59,742 INFO c.p.H.s.TelegramBot [how_many_days_until_bot Telegram Executor] send photo
+2024-12-22 18:30:00,144 INFO c.p.H.s.TelegramBot [how_many_days_until_bot Telegram Executor] send message
+2024-12-22 18:30:07,650 INFO c.p.H.s.TelegramBot [how_many_days_until_bot Telegram Executor] send photo
+2024-12-22 18:30:08,310 INFO c.p.H.s.TelegramBot [how_many_days_until_bot Telegram Executor] send message
+2024-12-22 18:30:15,513 INFO c.p.H.s.TelegramBot [how_many_days_until_bot Telegram Executor] send message
+2024-12-22 18:30:20,466 INFO c.p.H.s.TelegramBot [how_many_days_until_bot Telegram Executor] send message
+2024-12-22 18:30:20,753 INFO c.p.H.s.TelegramBot [how_many_days_until_bot Telegram Executor] send message
+2024-12-22 18:30:27,126 INFO c.p.H.s.TelegramBot [how_many_days_until_bot Telegram Executor] send message
+2024-12-22 18:30:30,494 INFO c.p.H.s.TelegramBot [how_many_days_until_bot Telegram Executor] send photo
+2024-12-22 18:30:30,852 INFO c.p.H.s.TelegramBot [how_many_days_until_bot Telegram Executor] send message
+2024-12-22 18:30:44,474 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-22 18:30:44,478 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-12-22 18:30:44,491 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
